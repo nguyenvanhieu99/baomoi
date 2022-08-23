@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.jpg);
+}
+
+@font-face {
+    font-family: VNF-Bodoni;
+    src: url(FONTS/Philosopher-Bold.ttf);
+}
+.container{
+    width: 70%;
+    margin-right: auto;;
+    margin-left: auto;
+}
+.tieude {
+    display: flex;
+    justify-content: center;
+    /*margin-top: 300px;*/
+    /*margin-bottom: 300px*/
+     margin-top: 0;
+ }
+.hcontent{
+    color: red;
+    font-style: italic;
+}
+.himage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom:30px
+     margin-top: 0;  
+}
+
+.video {
+    background-color: #BA2030;
+    min-width: 100%;
+  min-height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.p1 {
+    margin-left: 25%: 
+    width: 25%;
+    /*position: absolute;*/
+}
+
+.p1effect {
+    width: 300px;
+    /*position: absolute;*/
+    opacity: 1;
+    transition: 5s;
+}
+
+div.p1name {
+    display: block;
+    /*position: absolute;*/
+    margin-left: auto;
+    margin-right: auto;
+
+
+   width:75%;
+}
+div.p1Image {
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1quote{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.grid2x2 > div {
+    padding: 0 0 0 0 ;
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.grid2x2 > div > image {
+margin:  0 0 0 0 ;
+  display: flex;
+  height: 
+ /* justify-content: center;
+  flex-direction: row;*/
+}
+td.img{
+    margin: 15px 15px 15px 15px;
+}
+.container1{
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 50px 50px;*/
+}
+.container1 div img{
+    margin: 20px 20px 20px 20px ;
+}
